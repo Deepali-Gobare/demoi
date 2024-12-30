@@ -1,0 +1,11 @@
+PM> Scaffold-DbContext "Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=dac22;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Build started...
+Build succeeded.
+Scaffold-DbContext : Exception calling "ThrowExceptionForHR" with "1" argument(s): "Value does not fall within the expected 
+range."
+At line:1 char:1
++ Scaffold-DbContext "Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Scaffold-DbContext], MethodInvocationException
+    + FullyQualifiedErrorId : ArgumentException,Scaffold-DbContext
+ 
